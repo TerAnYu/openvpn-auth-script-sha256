@@ -23,9 +23,9 @@ new_line = in_user + ":" + in_password
 
 if os.path.getsize("users.db") > 0:
     f.write("\n" + new_line)
-	f.close()
-	sys.exit(0)
+    f.close()
+    sys.exit(0)
 else:
     f.write(new_line)
-	f.close()
-	sys.exit(0)
+    f.close()
+    sys.exit(0)
